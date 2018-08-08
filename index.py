@@ -2,6 +2,6 @@ print("hello world")
 print(2 ** 3)
 
 a = 5
-a = a + a
+a = "truckin'"
 
-print(a)
+print(a[3])
