@@ -12,19 +12,21 @@ d = {"k1":1,"k2":[0,1,2],"k3":{"anotherKey":100}}
 
 e = (1,"two",4.5)
 
+myfile = open("myfile.txt")
 
-print(a[::-1])
-print(b.split())
+# print(a[::-1])
+# print(b.split())
 
 
-print("this is a string {1} {0}".format("also inserted", "inserted"))
+# print("this is a string {1} {0}".format("also inserted", "inserted"))
 
-print(f'this is a new string {b}')
+# print(f'this is a new string {b}')
 
-print(c["key1"])
+# print(c["key1"])
 
-print(d["k3"]["anotherKey"])
+# print(d["k3"]["anotherKey"])
 
-print(e.count("two"))
+# print(e.count("two"))
 
-print(1 > 2)
+# print(1 > 2)
+print(myfile.read())
