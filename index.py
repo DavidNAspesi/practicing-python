@@ -26,3 +26,5 @@ print(c["key1"])
 print(d["k3"]["anotherKey"])
 
 print(e.count("two"))
+
+print(1 > 2)
