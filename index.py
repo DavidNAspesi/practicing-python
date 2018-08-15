@@ -49,7 +49,11 @@
 # print(1 < 2 or 2 > 3)
 # print(not 2 > 3)
 
-if 4 < 3:
-    print("its true!")
-else:
-    print("whoops")
+# if 4 < 3:
+#     print("its true!")
+# else:
+#     print("whoops")
+
+my_iterable = [1,2,3]
+for item_name in my_iterable:
+    print(item_name)
