@@ -92,13 +92,19 @@
 # for item in zip(list1, list2):
 #     print(item)
 
-mylist = [1,2,4,654,84,3]
-print(min(mylist))
-print(max(mylist))
+# mylist = [1,2,4,654,84,3]
+# print(min(mylist))
+# print(max(mylist))
 
-from random import shuffle
+# from random import shuffle
 
-mylist2 = [1,2,3,4,5,6,7,8,9]
-shuffle(mylist2)
+# mylist2 = [1,2,3,4,5,6,7,8,9]
+# shuffle(mylist2)
 
-print(mylist2)
+# print(mylist2)
+
+# result = input("Enter a number: ")
+# print(result)
+
+mylist = [letter for letter in "hello"]
+print(mylist)
