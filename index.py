@@ -53,7 +53,16 @@
 #     print("its true!")
 # else:
 #     print("whoops")
+# new_list = []
+# my_iterable = "a string"
+# for item_name in my_iterable:
+#     new_list.append(item_name)
 
-my_iterable = [1,2,3]
-for item_name in my_iterable:
-    print(item_name)
+# print(new_list)
+
+my_iterable = [0,1,2,3,4,5,6,7,8,9,10]
+for num in my_iterable:
+    if num % 2 == 0:
+        print(num)
+    else:
+        print(f"Odd number: {num}")
