@@ -60,9 +60,14 @@
 
 # print(new_list)
 
-my_iterable = [0,1,2,3,4,5,6,7,8,9,10]
-for num in my_iterable:
-    if num % 2 == 0:
-        print(num)
-    else:
-        print(f"Odd number: {num}")
+# my_iterable = [0,1,2,3,4,5,6,7,8,9,10]
+# for num in my_iterable:
+#     if num % 2 == 0:
+#         print(num)
+#     else:
+#         print(f"Odd number: {num}")
+
+mylist = [(1,2),(3,4),(5,6),(7,8)]
+for a,b in mylist:
+    print(a)
+    print(b)
