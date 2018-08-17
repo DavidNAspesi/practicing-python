@@ -67,7 +67,12 @@
 #     else:
 #         print(f"Odd number: {num}")
 
-mylist = [(1,2),(3,4),(5,6),(7,8)]
-for a,b in mylist:
-    print(a)
-    print(b)
+# mylist = [(1,2),(3,4),(5,6),(7,8)]
+# for a,b in mylist:
+#     print(a)
+#     print(b)
+
+while_number = 0
+while while_number < 10:
+    while_number += 1
+    print (while_number)
