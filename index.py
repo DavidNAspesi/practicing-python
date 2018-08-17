@@ -72,7 +72,33 @@
 #     print(a)
 #     print(b)
 
-while_number = 0
-while while_number < 10:
-    while_number += 1
-    print (while_number)
+# while_number = 0
+# while while_number < 10:
+#     while_number += 1
+#     print (while_number)
+
+# for num in range(3,10,2):
+#     print(num)
+
+
+
+# word = "abcde"
+# for index,item in enumerate(word):
+#     print(item)
+
+# list1 = [1,2,3]
+# list2 = ["a","b","c"]
+
+# for item in zip(list1, list2):
+#     print(item)
+
+mylist = [1,2,4,654,84,3]
+print(min(mylist))
+print(max(mylist))
+
+from random import shuffle
+
+mylist2 = [1,2,3,4,5,6,7,8,9]
+shuffle(mylist2)
+
+print(mylist2)
