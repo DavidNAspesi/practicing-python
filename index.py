@@ -109,9 +109,19 @@
 # mylist = [letter for letter in "hello"]
 # print(mylist)
 
-def functionName(thing):
-    print(thing)
+# def functionName(thing):
+#     print(thing)
 
 
 
-functionName("James")
+# functionName("James")
+
+def pig_latin(str):
+    first_letter = str[0].lower()
+    if first_letter in "aeiou":
+        pig_word = str + "ay"
+    else: pig_word = str[1:] + first_letter + "ay"
+    
+    return pig_word
+
+print(pig_latin("apple"))
