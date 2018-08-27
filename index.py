@@ -106,5 +106,12 @@
 # result = input("Enter a number: ")
 # print(result)
 
-mylist = [letter for letter in "hello"]
-print(mylist)
+# mylist = [letter for letter in "hello"]
+# print(mylist)
+
+def functionName(thing):
+    print(thing)
+
+
+
+functionName("James")
